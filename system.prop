@@ -72,6 +72,24 @@ persist.tegra.nvlog.level=4
 # DRM
 persist.tegra.drmlib.asfdrm=libnvdrm.so
 Drmdll.asfdrm=libnvdrm.so
+#persist.sys.themeId=Cyanbread
+#persist.sys.themePackageName=com.tmobile.theme.Cyanbread
+debug.sf.electron_frames=12
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
+persist.sys.battery.polling=90
+persist.sys.ui.hw=true
+dalvik.vm.lockprof.threshold=500
+#dalvik.vm.dexopt-flags=m=y
+dalvik.vm.heapsize=32m
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.dexopt-data-only=1
+ro.config.hw_menu_unlockscreen=false
+ro.service.swiqi.supported=true
+debug.sf.hw=1
+# Power Save tweaks
+ro.ril.disable.power.collapse=1
+pm.sleep_mode=1
 
 # Set locale to English US by default
 ro.product.locale.language=en

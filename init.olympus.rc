@@ -525,7 +525,8 @@ on boot
       setprop net.tcp.buffersize.edge    16384,32768,65536,4096,16384,32768
       setprop net.tcp.buffersize.gprs    4096,8192,12288,4096,8192,12288
 
-
+      setprop ro.squadzone.build 1
+      setprop persist.sys.gmaps_hack 1
 # Fingerprint sensor daemon
 service am2server /system/bin/am2server
     user system

@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
     device/motorola/olympus/ueventd.olympus.rc:root/ueventd.olympus.rc
 
 ## (2) Also get non-open-source GSM-specific aspects if available
-$(call inherit-product-if-exists, vendor/motorola/olympus/olympus-vendor.mk)
+$(call inherit-product-if-exists, vendor/moto/olympus/olympus-vendor.mk)
 
 # motorola helper scripts
 PRODUCT_COPY_FILES += \
@@ -62,7 +62,7 @@ endif
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
-$(call inherit-product-if-exists, vendor/motorola/olympus/olympus-vendor.mk)
+$(call inherit-product-if-exists, vendor/moto/olympus/olympus-vendor.mk)
 
 $(call inherit-product, build/target/product/full_base.mk)
 
